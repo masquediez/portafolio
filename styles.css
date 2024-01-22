@@ -10,6 +10,7 @@ header {
     color: white;
     text-align: center;
     padding: 1em;
+    
 }
 
 section {
@@ -37,17 +38,12 @@ form {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /* Estilos para pantallas más pequeñas (Smartphones) */
 @media only screen and (max-width: 600px) {
@@ -61,11 +57,12 @@ body {
     }
 
     .project {
-        margin-bottom: 1em;
+        margin-bottom: 20px;
     }
 
     footer {
-        padding: 0.5em;
+        padding: 0px;
+        margin-bottom: 10px;
     }
 }
 /* Estilos para pantallas pequeöas (smartphone) */
@@ -92,11 +89,12 @@ body {
     }
 }
 
+
 /* Estilos para pantallas muy grandes (Desktops) */
 @media only screen and (min-width: 1441px) {
     section {
         padding: 1%;
-        background-color: #2fff0000;
+        background-color: #2fff00fb;
     }
 }
 
@@ -120,4 +118,21 @@ body {
     }
 }
 
-/* Otros estilos para pantallas más grandes ... */
+/* Estilos para pantallas medianas (Laptop) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Otros estilos ... */
+
+    .projekt img {
+        width: 300px;
+        height: 300px;
+    }
+}
+/* Estilos para pantallas medianas (Laptop) */
+@media only screen and (min-width: 1441px) {
+    /* Otros estilos ... */
+
+    .projekt img {
+        width: 400px;
+        height: 400px;
+    }
+}
