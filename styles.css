@@ -91,10 +91,10 @@ form {
 
 
 /* Estilos para pantallas muy grandes (Desktops) */
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1441px) and (max-width: 1810px) {
     section {
         padding: 1%;
-        background-color: #2fff00fb;
+        background-color: #2fff01;
     }
 }
 
