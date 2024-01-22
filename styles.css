@@ -49,7 +49,7 @@ form {
 @media only screen and (max-width: 600px) {
     header {
         font-size: 1.5em;
-	background-color:
+	background-color: #333333
     }
 
     section {
@@ -103,14 +103,14 @@ form {
     /* Otros estilos ... */
 
     .projekt img {
-        width: 150px; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
-        height: 150px; /* Mantiene la proporción de la imagen */
+        width: 150px; 
+        height: 150px; 
     }
 }
 
 /* Estilos para pantallas medianas (Tablets) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Otros estilos ... */
+    
 
     .projekt img {
         width: 200px;
@@ -120,7 +120,7 @@ form {
 
 /* Estilos para pantallas medianas (Laptop) */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    /* Otros estilos ... */
+    
 
     .projekt img {
         width: 300px;
@@ -129,7 +129,7 @@ form {
 }
 /* Estilos para pantallas medianas (Laptop) */
 @media only screen and (min-width: 1441px) {
-    /* Otros estilos ... */
+    
 
     .projekt img {
         width: 400px;
